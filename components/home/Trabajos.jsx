@@ -64,16 +64,16 @@ const trabajos = [
       "Excelente atencion de Rolo y su equipo. Todos muy profesionales. Super recomendable!",
   },
   {
+    nombre: "PABLO GALLI",
+    reseña: "",
+  },
+  {
     nombre: "Natalia Silveira",
     reseña: "Espectacular atención. Muy profesionales",
   },
   {
     nombre: "Esteban Marquez",
     reseña: "Excelente recomendable",
-  },
-  {
-    nombre: "PABLO GALLI",
-    reseña: "",
   },
 ];
 function Trabajos() {
