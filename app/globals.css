@@ -1,0 +1,13 @@
+.main {
+  margin: auto;
+  color: rgb(33, 33, 33);
+  /* font-family: "Jost", sans-serif; */
+  /* font-optical-sizing: auto; */
+}
+
+.line {
+  background-color: #5a7cff;
+  height: 2px;
+  width: 70px;
+  margin: 0px 0 10px 0;
+}
