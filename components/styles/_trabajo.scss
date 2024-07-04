@@ -2,7 +2,7 @@
     padding: 100px 50px 200px;
     width: 100%;
     margin: 0 auto;
-    background-color: #e7e7e784;
+    background: #ffffff6b;
     text-align: center;
 
     @media (max-width:500px) {
@@ -20,8 +20,9 @@
         }
 
         h2 {
+            color: #3A7FF2;
             font-size: 32px;
-            font-weight: 500;
+            font-weight: 600;
             margin-bottom: 40px;
         }
 
@@ -63,15 +64,17 @@
         justify-content: center;
         align-items: center;
 
+
         .trabajo {
             display: flex;
+
             flex-direction: column;
             justify-content: space-between;
-            background-color: #fff;
+            background-color: #ffffff;
             padding: 20px;
-            box-shadow: 1px 1px 10px #11111131;
-            border-radius: 2px;
-            height: 220px;
+            box-shadow: 1px 1px 10px #1111111d;
+            // border-radius: 15px;
+            height: 240px;
 
 
             @media (max-width:600px) {

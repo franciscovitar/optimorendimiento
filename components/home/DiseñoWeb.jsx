@@ -45,9 +45,6 @@ function DiseñoWeb() {
   return (
     <div id="desarrollo" className="nos-container">
       <div className="fila">
-        <motion.div {...imageVariants} className="imagen">
-          <Image alt="Nosotros" title="Nosotros" src={Nos}></Image>
-        </motion.div>
         <div className="texto">
           <motion.h2 {...tittleVariants}>¿Cuáles son los beneficios?</motion.h2>
           <motion.div {...lineVariants} className="line"></motion.div>
@@ -61,23 +58,25 @@ function DiseñoWeb() {
             necesidades específicas, aliviando el dolor, mejorando la movilidad
             y promoviendo la curación natural del cuerpo. Al elegirnos,
             accederás a:
-            <ul>
-              <li>
-                - <strong>Tratamientos personalizados</strong> para maximizar tu
-                salud y rendimiento.
-              </li>
-              <li>
-                - <strong>Prevención de lesiones futuras</strong> y mejora del
-                rendimiento físico.
-              </li>
-              <li>
-                - <strong>Terapias no invasivas</strong> que complementan la
-                medicina convencional.
-              </li>
-              <li>
-                - <strong>Diagnósticos precisos</strong> y cuidados de calidad.
-              </li>
-            </ul>
+          </motion.p>
+          <ul>
+            <li>
+              - <strong>Tratamientos personalizados</strong> para maximizar tu
+              salud y rendimiento.
+            </li>
+            <li>
+              - <strong>Prevención de lesiones futuras</strong> y mejora del
+              rendimiento físico.
+            </li>
+            <li>
+              - <strong>Terapias no invasivas</strong> que complementan la
+              medicina convencional.
+            </li>
+            <li>
+              - <strong>Diagnósticos precisos</strong> y cuidados de calidad.
+            </li>
+          </ul>
+          <motion.p>
             Nuestro equipo de profesionales está comprometido con tu bienestar
             integral, ayudándote a vivir una vida más plena y satisfactoria.
             ¡Confía en nosotros y comienza tu viaje hacia una mejor calidad de
@@ -91,6 +90,9 @@ function DiseñoWeb() {
             ¡Sacar un turno!
           </motion.a>
         </div>
+        <motion.div {...imageVariants} className="imagen">
+          <Image alt="Nosotros" title="Nosotros" src={Nos}></Image>
+        </motion.div>
       </div>
     </div>
   );

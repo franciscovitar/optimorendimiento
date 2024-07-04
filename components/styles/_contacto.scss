@@ -1,6 +1,6 @@
 .contacto-container {
     padding: 100px 0;
-    background-color: #ffffff;
+    // background-color: #ffffff;
 
     .contacto-container2 {
         display: flex;
@@ -15,7 +15,7 @@
     h3 {
         font-weight: 400;
         font-size: 32px;
-        // color: rgb(87, 119, 186);
+        color: #3A7FF2;
     }
 
     h4 {
@@ -50,8 +50,8 @@
             textarea {
                 resize: none;
                 outline: none;
-                border: solid 1px #88888870;
-                padding: 10px 10px;
+                border: solid 1px #8888882d;
+                padding: 15px 10px;
 
                 &::placeholder {
                     color: rgb(73, 80, 87);
@@ -95,7 +95,7 @@
             }
 
             div {
-                background-color: #e7e7e75b;
+                background-color: #ffffff;
                 width: 48%;
                 height: 227px;
                 margin: 1px;

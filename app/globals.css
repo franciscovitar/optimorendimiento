@@ -1,4 +1,5 @@
 .main {
+  background-color: #f5f1ed;
   margin: auto;
   color: rgb(33, 33, 33);
   /* font-family: "Jost", sans-serif; */
@@ -6,8 +7,8 @@
 }
 
 .line {
-  background-color: #5a7cff;
-  height: 2px;
+  background-color: #3a7ff2;
+  height: 3px;
   width: 70px;
   margin: 0px 0 10px 0;
 }

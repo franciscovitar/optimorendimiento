@@ -1,4 +1,4 @@
-import { Montserrat } from "next/font/google";
+import { Roboto_Condensed } from "next/font/google";
 import "./globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ToastProvider from "@/providers/toast-provider";
 
-const inter = Montserrat({
+const inter = Roboto_Condensed({
   subsets: ["latin"],
   weight: ["100", "300", "400", "500", "700", "900"],
 });

@@ -27,7 +27,7 @@ function HomeWelcome() {
     <div id="inicio" className="HomeWelcome-container">
       <div className="container">
         <motion.h1 {...textVariants}>
-          Vive una vida plena sin{" "}
+          Vive una vida plena sin <br />
           <ReactTyped
             strings={["Dolores", "Estrés", "Lesiones", "Limitaciones"]}
             typeSpeed={60}

@@ -96,7 +96,6 @@ function Servicios() {
         </motion.p>
         <motion.p {...textVariants}>
           Te ayudamos a vivir una vida más <strong>plena</strong> y{" "}
-          <strong>satisfactoria</strong>, mejorando tu{" "}
           <strong>salud física y mental</strong>.
         </motion.p>
       </div>
@@ -105,8 +104,8 @@ function Servicios() {
         {serviciosData.map((servicio, index) => (
           <motion.div key={index} {...servsVariants} className="servicio">
             {/* <i className={servicio.icon}></i> */}
-            <h3>{servicio.title}</h3>
             <Image src={hola}></Image>
+            <h3>{servicio.title}</h3>
             <p dangerouslySetInnerHTML={{ __html: servicio.description }}></p>
           </motion.div>
         ))}
