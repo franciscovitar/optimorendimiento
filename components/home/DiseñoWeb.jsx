@@ -69,8 +69,8 @@ function DiseñoWeb() {
               rendimiento físico.
             </li>
             <li>
-              - <strong>Terapias no invasivas</strong> que complementan la
-              medicina convencional.
+              - <strong>Terapias invasivas</strong> como, punción seca, electro
+              punción, neuromodulación y microelectrolisis percutánea ecoguiada.
             </li>
             <li>
               - <strong>Diagnósticos precisos</strong> y cuidados de calidad.

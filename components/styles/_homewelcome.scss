@@ -6,7 +6,7 @@ $Violeta4: #FFB6C1;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    height: 100vh;
+    height: 90vh;
     position: relative;
     display: flex;
     justify-content: center;
@@ -73,7 +73,8 @@ $Violeta4: #FFB6C1;
 
             @media (max-width: 600px) {
                 font-size: 30px;
-                // text-align: start;
+                font-weight: 700;
+                width: 80%;
             }
 
             @media (max-width: 360px) {
@@ -83,12 +84,13 @@ $Violeta4: #FFB6C1;
 
         h4 {
             text-align: center;
-            font-weight: 400;
-            font-size: 18px;
+            font-weight: 300;
+            font-size: 24px;
             margin: 25px 0;
 
             @media (max-width: 600px) {
                 font-size: 20px;
+                font-weight: 300;
 
             }
 
@@ -123,7 +125,12 @@ $Violeta4: #FFB6C1;
                     font-size: 15px;
                 }
 
-                @media (max-width: 500px) {
+                // @media (max-width: 500px) {
+                //     padding: 10px 10px;
+                //     font-size: 13px;
+                // }
+
+                @media (max-width: 400px) {
                     padding: 10px 10px;
                     font-size: 13px;
                 }
