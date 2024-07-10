@@ -114,8 +114,8 @@ function Contacto() {
             <motion.div {...paragraphVariants}>
               <i className="bi bi-clock"></i>
               <h5>HORARIO</h5>
-              <p>lunes a viernes: 9am-8pm</p>
-              <p>Sábado y domingo: cerrado</p>
+              <p>Lunes a jueves: 14hs - 21hs</p>
+              <p>Viernes: 8hs - 16hs</p>
             </motion.div>
           </div>
           <motion.form {...paragraphVariants}>
