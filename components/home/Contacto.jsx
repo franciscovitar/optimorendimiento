@@ -43,10 +43,10 @@ function Contacto() {
 
     emailjs
       .sendForm(
-        "service_khoqdvt",
-        "template_cu6span",
+        "service_q3evxcm",
+        "template_8c05vgd",
         form,
-        "_Xi61NPw_YghhsDhm"
+        "E6hTZwuGCAOTz2q0h"
       )
       .then(
         (response) => {
