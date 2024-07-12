@@ -12,20 +12,28 @@ const inter = Roboto_Condensed({
 });
 
 export const metadata = {
-  title: "Optimo rendimiento",
+  title: "Óptimo Rendimiento - Centro de salud física en Montevideo",
   description:
-    "En nuestra clínica de terapias físicas, nos dedicamos a mejorar tu bienestar físico y funcional. Ofrecemos tratamientos personalizados para aliviar el dolor, mejorar la movilidad y promover tu salud general. Descubre cómo podemos ayudarte hoy mismo.",
-  keywords: ["terapias físicas", "salud física", "bienestar", "terapia manual"],
+    "Descubre Óptimo Rendimiento, tu centro de kinesiología en Montevideo. Ofrecemos tratamientos personalizados de kinesiología y fisioterapia para mejorar tu bienestar físico, aliviar el dolor y aumentar tu movilidad. Visítanos hoy y mejora tu salud con nuestros expertos.",
+  keywords: [
+    "kinesiología Montevideo",
+    "fisioterapia Montevideo",
+    "tratamientos de kinesiología",
+    "alivio del dolor",
+    "mejora de la movilidad",
+    "bienestar físico",
+    "centro de kinesiología",
+  ],
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="canonical" href="https://www.mercadoahora.com.ar/" />
+        <link rel="canonical" href="https://www.optimorendimientouy.com/" />
         <meta
           name="google-site-verification"
-          content="cNem6k58FhHNRbzbwQui38jSHVe4cw-wdgDzxmFqANA"
+          content="D6cPs-X-jHYuQCJbMZG8GTbA7i1p5FYahKTj_a3QBnk"
         />
       </head>
       <body translate="no" className={inter.className}>
