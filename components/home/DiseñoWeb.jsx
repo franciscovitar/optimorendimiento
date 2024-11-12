@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import Nos from "../../Images/sitioweb.jpg";
+import Nos from "../../Images/sitioweb.jpeg";
 import "../styles/_diseñoWeb.scss";
 import { motion } from "framer-motion";
 const lineVariants = {
