@@ -1,9 +1,9 @@
 .nos-container {
     margin: 250px 0;
 
-    // @media (max-width: 900px) {
-    //     margin: 75px 0;
-    // }
+    @media (max-width: 600px) {
+        margin: 75px 0;
+    }
 
     .fila {
         display: flex;
